@@ -8,7 +8,7 @@ def my_each(yield_arg) # put argument(s) here
   end
 end
 
-my_each(array_yield) {|container| puts "So I think #{container} is a piece of shit"}
+my_each(array_yield) {|container| "So I think #{container} is a piece of shit"}
 
 # def hello(array)
 #   i = 0

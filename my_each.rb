@@ -1,4 +1,4 @@
-array_yield = ["Apple", "Mango", "Orange"]
+array_yield = ['arel', 'jon', 'logan', 'spencer']
 
 def my_each(yield_arg) # put argument(s) here
   counter = 0

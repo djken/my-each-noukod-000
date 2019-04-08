@@ -6,6 +6,7 @@ def my_each(yield_arg) # put argument(s) here
     yield(yield_arg[counter])
     counter += 1
   end
+  yield_arg
 end
 
 my_each(array_yield) {|container| "So I think #{container} is a piece of shit"}

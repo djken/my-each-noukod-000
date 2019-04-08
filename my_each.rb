@@ -7,7 +7,7 @@ def my_each(yield_arg) # put argument(s) here
   end
 end
 
-list = ["ab", "cd", "ef"]
+array_yield = ["Apple", "Mango", "Orange"]
 
 
-my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
+my_each(array_yield) {|container| puts "So I think #{container} is a piece of shit"}

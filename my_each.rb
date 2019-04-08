@@ -1,4 +1,4 @@
-def my_each # put argument(s) here
+def my_each(yield_arg) # put argument(s) here
   # code here
   
 end
